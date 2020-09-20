@@ -1,0 +1,57 @@
+ul {
+  list-style: none;
+}
+p {
+  margin: 0;
+}
+
+.section-galary {
+  padding-top: 30px;
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.img_box {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
+  padding: 0;
+}
+
+.galary_items {
+  width: 300px;
+  margin: 30px;
+  position: relative;
+}
+
+.text_overlay {
+  font-weight: 700;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: 0.5s ease;
+  background-color: #13efff88;
+}
+
+.specs {
+  color: #212121;
+  font-size: 25px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.galary_items:hover .text_overlay {
+  opacity: 1;
+}
+
+.button{
+
+}

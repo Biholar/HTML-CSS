@@ -1,0 +1,75 @@
+@import "./galary.css" screen;
+
+/* Color Theme Swatches in Hex 
+
+ #9295A6
+ #F2A74B
+ #F27127
+ #260101
+ #F2F2F2
+
+*/
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 20px;
+  font-weight: 500;
+  background-color: #f2f2f2;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.logo {
+  width: 100px;
+  transition: all 400ms;
+}
+
+.logo:hover {
+  transform: scale(1.2);
+  transform: 1s;
+}
+
+.nav {
+  background-color: #9295a6;
+  padding: 10px 100px;
+  display: flex;
+  justify-content: space-around;
+  color: #212121;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.items {
+  padding: 0 50px;
+  font-weight: 700;
+}
+
+.headerlink {
+  color: #212121;
+  text-transform: lowercase;
+  font-size: 25px;
+  text-decoration: none;
+  font-weight: 700;
+}
+.headerlink::after {
+  display: block;
+  content: "";
+  width: 0;
+  background-color: #115772;
+  height: 2px;
+  margin-top: 1px;
+  transition: width 300ms ease-in;
+}
+.headerlink:hover {
+  color: #212121;
+}
+.headerlink:hover::after {
+  width: 100%;
+}

@@ -1,0 +1,61 @@
+.about_section_main {
+  padding: 75px 100px;
+}
+
+.header {
+  text-transform: uppercase;
+  font-size: 50pt;
+  font-weight: 700;
+  color: black;
+  display: flex;
+  justify-content: center;
+}
+
+.divide {
+  margin: 5px auto;
+  border-top: 5px solid #212121;
+  border-radius: 5px;
+  width: 600px;
+}
+
+.about_content {
+  padding: 75px 100px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.palka {
+  display: flex;
+  height: 500px;
+  border-left: 8px solid #212121;
+  border-radius: 5px;
+}
+
+.about_text {
+  display: flex;
+  font-size: 23pt;
+  font-weight: 600;
+  text-align: justify;
+
+  width: 800px;
+}
+
+.about_section_fabric {
+  padding: 0px 100px;
+}
+.factory {
+  margin: 50px auto;
+}
+
+.factory_img {
+  scale: 1.8;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.description {
+  padding-top: 30px;
+  font-size: 20pt;
+  display: flex;
+  justify-content: center;
+}
